@@ -535,7 +535,7 @@ p {
   width: 95%;
   height: 95%;
   object-fit: scale-down;
-  box-shadow: 0 2rem 3rem 2rem rgba(20, 25, 45, 0.2);
+  box-shadow: 0 2rem 3rem 2rem rgba(20, 25, 45, 0.1);
   border-radius: 4px;
 }
 
