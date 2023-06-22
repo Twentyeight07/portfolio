@@ -338,7 +338,7 @@ p {
 
 .modal-content {
   position: relative;
-  height: 90vh;
+  height: auto;
 }
 
 .modal-close {
@@ -485,6 +485,10 @@ p {
   background-color: var(--third-color);
 }
 
+.mobile-app-img {
+  display: none;
+}
+
 .header {
   position: fixed;
   left: 0;
@@ -601,7 +605,7 @@ p {
 .portfolio-modal {
   padding: 1rem;
   max-width: 25rem;
-  height: 90vh;
+  height: auto;
   display: flex;
   flex-direction: column;
   background-color: white;
@@ -616,8 +620,7 @@ p {
 
 .portfolio-modal img {
   object-fit: scale-down;
-  width: 50%;
-  height: 40%;
+  max-width: 50%;
 }
 
 .portfolio-details {
@@ -686,6 +689,12 @@ p {
     height: auto;
   }
 
+  .mobile-app-img {
+    display: block;
+    width: 10rem;
+    height: auto;
+  }
+
   .portfolio-info {
     margin-left: 1rem;
     align-self: center;
@@ -730,7 +739,9 @@ p {
     height: auto;
   }
 
-  .portfolio-modal {
+  .mobile-app-img {
+    display: block;
+    width: 15rem;
     height: auto;
   }
 
